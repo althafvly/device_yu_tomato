@@ -16,14 +16,14 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosvp/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 #$(call inherit-product, vendor/gapps/config.mk)
 #GAPPS_VARIANT := nano
-PRODUCT_NAME := lineage_tomato
+PRODUCT_NAME := aosvp_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
