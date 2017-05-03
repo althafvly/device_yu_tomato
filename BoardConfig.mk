@@ -20,6 +20,8 @@ include device/yu/tomato/board/*.mk
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
+BOARD_USES_ADRENO := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
