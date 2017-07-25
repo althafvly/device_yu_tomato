@@ -94,3 +94,8 @@ service ims_trigger /init.qti.ims.sh
     class main
     user root
     oneshot
+
+service baseband-sh /system/bin/sh /system/etc/set_baseband.sh
+    class late_start
+    user root
+    oneshot
