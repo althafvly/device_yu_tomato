@@ -26,7 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
 
 # Inherit common Android Go configurations
-$(call inherit-product, build/target/product/go_defaults.mk)
+#$(call inherit-product, build/target/product/go_defaults.mk)
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
