@@ -30,3 +30,7 @@ include $(LOCAL_PATH)/product/*.mk
 
 # Call the proprietary setup
 $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0
