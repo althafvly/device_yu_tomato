@@ -43,3 +43,6 @@ libhealthd.cm
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0
+
+# Gapps
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
