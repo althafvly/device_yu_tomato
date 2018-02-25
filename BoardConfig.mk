@@ -22,3 +22,8 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
+
+# Dex-preopt
+WITH_DEXPREOPT := false
+DONT_DEXPREOPT_PREBUILTS := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
