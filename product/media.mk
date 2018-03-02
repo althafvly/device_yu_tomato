@@ -27,4 +27,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.disable.split.mode=1 \
     vidc.enc.disable_bframes=1 \
     vidc.enc.disable_pframes=1 \
-    vidc.enc.narrow.searchrange=1
+    vidc.enc.narrow.searchrange=1 \
+    ro.config.low_ram=false
