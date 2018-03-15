@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Enable Custom Button Brightness -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+ <!--   <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
