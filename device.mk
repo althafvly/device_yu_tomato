@@ -43,12 +43,6 @@ PRODUCT_COPY_FILES +=\
  $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassmix.so:/system/app/MusicPlayer/lib/arm/libbassmix.so \
  $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_aac.so:/system/app/MusicPlayer/lib/arm/libbass_aac.so
 
-# Healthd packages
-PRODUCT_PACKAGES += \
-cm_charger_res_images \
-font_log.png \
-libhealthd.cm
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0
