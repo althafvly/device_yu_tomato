@@ -13,14 +13,13 @@ LOCAL_SRC_FILES :=	\
         sensors.cpp             \
         SensorBase.cpp          \
         LightSensor.cpp         \
-        ProximitySensor.cpp     \
         Accelerometer.cpp       \
         Gyroscope.cpp           \
         InputEventReader.cpp    \
         CalibrationManager.cpp  \
 		TomatoSensors.cpp       \
 		NativeSensorManager.cpp \
-		VirtualSensor.cpp 
+		VirtualSensor.cpp
 
 LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libutils
 
